@@ -8,6 +8,7 @@ def line(katz_deli)
   else
     katz_deli.each do |customer|
       line += " " + String(x) + ". #{customer}"
+      x += 1
     end
     puts line
   end
