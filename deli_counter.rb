@@ -8,6 +8,6 @@ def line(katz_deli)
     katz_deli.each do |customer|
       line += String(customer.index + 1) + ". #{customer}"
     end
-    return line
+    puts line
   end
 end
