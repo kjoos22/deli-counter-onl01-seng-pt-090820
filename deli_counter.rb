@@ -7,7 +7,7 @@ def line(katz_deli)
     puts "The line is currently empty."
   else
     katz_deli.each do |customer|
-      line += " " + String(customer.index + 1) + ". #{customer}"
+      line += " " + String(x) + ". #{customer}"
     end
     puts line
   end
