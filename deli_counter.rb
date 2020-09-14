@@ -3,5 +3,11 @@
 def line(katz_deli)
   if katz_deli == []
     puts "The line is currently empty."
+  else
+    print "The line is currently "
+    katz_deli.each do |customer|
+      print customer.index + 1 
+      print ". + #{customer}"
+    end
   end
 end
